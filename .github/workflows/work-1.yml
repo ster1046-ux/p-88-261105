@@ -8,7 +8,7 @@ on:
       - "Dockerfile"
       - "index.html"
     branches:
-      - test
+      - main
 jobs:
   makeTagAndRelease:
     runs-on: ubuntu-latest
